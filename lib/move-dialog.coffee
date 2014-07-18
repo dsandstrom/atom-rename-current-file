@@ -38,12 +38,12 @@ class MoveDialog extends Dialog
       @close()
     catch error
       @showError("#{error.message}.")
-    pane = atom.workspace.getActivePane()
+    # pane = atom.workspace.getActivePane()
     # console.log pane
     # console.log newPath
     # pane.reopenItem()
-    # atom.workspace.open(newPath)
-    atom.workspace.openUriInPane(newPath, pane)
+    atom.workspace.open(newPath)
+    # atom.workspace.openUriInPane(newPath, pane)
     # atom.open(newPath)
     # fs.open(newPath, 'r+')
     # console.log 'test'
