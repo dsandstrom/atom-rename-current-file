@@ -9,3 +9,5 @@
 # https://atom.io/docs/latest/advanced/keymaps
 '.workspace':
   'ctrl-alt-o': 'rename-current-file:toggle'
+'.editor':
+  'shift-f5': 'rename-current-file:rename'

@@ -2,14 +2,14 @@
   "name": "rename-current-file",
   "main": "./lib/rename-current-file",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Rename current file",
   "activationEvents": ["rename-current-file:toggle"],
-  "repository": "https://github.com/atom/rename-current-file",
+  "repository": "https://github.com/dsandstrom/atom-rename-current-file",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "string": ">= 1.9.0"
+    "fs-plus": ">= 2.2.2"
   }
 }
