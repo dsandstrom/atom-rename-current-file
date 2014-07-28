@@ -42,7 +42,7 @@ class MoveDialog extends Dialog
     # console.log pane
     # console.log newPath
     # pane.reopenItem()
-    atom.workspace.open(newPath)
+    # atom.workspace.open(newPath)
     # atom.workspace.openUriInPane(newPath, pane)
     # atom.open(newPath)
     # fs.open(newPath, 'r+')
